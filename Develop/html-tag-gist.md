@@ -2,9 +2,12 @@
 
 Welcome! In this guide, we will explore the /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/ regex.
 
+Whether you're new to regular expressions like myself or want to expand your understanding, 
+this tutorial will break down each component of the regex and explain its functionality.
+
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
 
 ## Table of Contents
 
