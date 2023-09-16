@@ -1,6 +1,6 @@
 # Tutorial for Matching HTML Tag
 
-Introductory paragraph (replace this with your text)
+Welcome! In this guide, we will explore the /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/ regex.
 
 ## Summary
 
