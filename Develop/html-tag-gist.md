@@ -7,8 +7,14 @@ this tutorial will break down each component of the regex and explain its functi
 
 ## Summary
 
-In this tutorial, we'll explore the regex pattern: 
-/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/. 
+Regular expressions, often referred to as Regex, play a big role in string search algorithms. 
+They are there to identify specific patterns within text, and this process is typically carried 
+out using functions like FIND or FIND AND REPLACE.
+
+To illustrate this concept, let's take a look at an example of searching for HTML tags in code:
+
+/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+
 This regular expression is specifically crafted to recognize HTML tags, 
 whether they are opening tags or self-closing tags. It excels at extracting 
 the tag name and, where relevant, any content enclosed within those tags.
