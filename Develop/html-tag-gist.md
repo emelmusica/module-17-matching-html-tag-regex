@@ -13,6 +13,12 @@ This regular expression is specifically crafted to recognize HTML tags,
 whether they are opening tags or self-closing tags. It excels at extracting 
 the tag name and, where relevant, any content enclosed within those tags.
 
+It's essential to have an understanding of HTML tags, To make the 
+most of this tutorial. As a quick refresher, HTML tags are enclosed within 
+< and > symbols, forming both an opening and closing "tag." If you've ever 
+inspected the source code of a web page, you've likely come across examples 
+like <HTML>, <main>, <div>, and many others.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
