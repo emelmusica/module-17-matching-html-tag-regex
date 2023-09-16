@@ -7,7 +7,11 @@ this tutorial will break down each component of the regex and explain its functi
 
 ## Summary
 
-
+In this tutorial, we'll explore the regex pattern: 
+/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/. 
+This regular expression is specifically crafted to recognize HTML tags, 
+whether they are opening tags or self-closing tags. It excels at extracting 
+the tag name and, where relevant, any content enclosed within those tags.
 
 ## Table of Contents
 
