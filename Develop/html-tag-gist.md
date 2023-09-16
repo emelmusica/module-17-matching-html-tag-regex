@@ -25,6 +25,22 @@ most of this tutorial. As a quick refresher, HTML tags are enclosed within
 inspected the source code of a web page, you've likely come across examples 
 like < HTML >, < main >, < div >, and many others.
 
+In the world of HTML, an important rule is that for every open tag, there must 
+be a corresponding closing tag. This ensures that the code within the tags functions 
+as intended. HTML tags can be more complex than the previous straightforward example, 
+often incorporating distinct elements that execute specific tasks when the webpage is 
+rendered. Take a moment to ponder this complexity:
+
+< a href="http://www.MusicStuffs.com" title="This is MusicStuffs" target="_blank" >
+
+Let's start by breaking down a link with the URL "http://www.MusicStuffs.com." When you 
+hover your mouse over it, you'll notice the title "This is MusicStuff" appears. Additionally, 
+it has the attribute "target="_blank"," which signifies that clicking the link will open 
+a new browser window or tab, depending on the user's browser settings.
+
+Because HTML tags can have a wide spectrum of characters, a regex string search needs 
+to be flexible enough to account for alphanumeric characters as well as special characters.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
