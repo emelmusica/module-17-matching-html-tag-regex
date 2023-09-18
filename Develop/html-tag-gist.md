@@ -129,6 +129,12 @@ In our regex, back-references, denoted as \1, help us ensure that the closing ta
 
 ### Look-ahead and Look-behind
 
+Look-ahead and look-behind assertions ((?=...) and (?<=...)) allow you to specify conditions before or after a match. 
+
+Our regex doesn't use look-aheads or look-behinds. The real difference is that they match characters and gives up the match. 
+
+Returning the result: Match or no Match
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
