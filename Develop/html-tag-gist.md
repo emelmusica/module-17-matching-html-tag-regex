@@ -58,7 +58,7 @@ to be flexible enough to account for alphanumeric characters as well as special 
 ## Regex Components
 
 ### Anchors
-Anchors in regex are used to specify where in the input string a match should occur. In our regex, 
+in Regex, anchors are used to specify where a match should accur in the input string. In our regex, 
 ^ and $ are anchors. ^ asserts the start of the string, and $ asserts the end. This ensures that 
 the regex matches the entire string, not just a part of it.
 
