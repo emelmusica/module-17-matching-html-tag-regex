@@ -8,4 +8,4 @@ for my research I utilised google as much as possible along with many other tuto
 
 you can find my tutorial in the link provided below. 
 
-<script src="https://gist.github.com/emelmusica/332389915afe06e38925cab5988b6ffe.js"></script>
+https://gist.github.com/emelmusica/332389915afe06e38925cab5988b6ffe.js
