@@ -109,6 +109,8 @@ A bracket expression in regex, enclosed in square brackets, matches a single cha
 
 ### Greedy and Lazy Match
 
+The * quantifier is greedy by default, meaning it matches as much as possible. To make it lazy (matching as little as possible), you can use *?. Our regex uses * for capturing content within tags.
+
 ### Boundaries
 
 ### Back-references
@@ -118,3 +120,6 @@ A bracket expression in regex, enclosed in square brackets, matches a single cha
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+
+alsjdflkjlflkjalskajd;flkjalskjd;lfkjal;ksjd;flkja;lsjdf;lkjasl;kjdf;lkjasljdfl
