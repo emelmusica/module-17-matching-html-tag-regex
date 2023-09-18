@@ -120,6 +120,3 @@ The * quantifier is greedy by default, meaning it matches as much as possible. T
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-
-
-alsjdflkjlflkjalskajd;flkjalskjd;lfkjal;ksjd;flkja;lsjdf;lkjasl;kjdf;lkjasljdfl
