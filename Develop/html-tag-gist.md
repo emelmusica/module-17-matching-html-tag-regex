@@ -62,6 +62,15 @@ In Regex, anchors such as ^ and $ define the boundaries for a match within an in
 
 ### Quantifiers
 
+Quantifiers specify how many times a character or group should appear. In this regex, + is a quantifier. + means "one or more," so [ a-z ] + matches one or more lowercase letters.
+
+( + ) ensures that at least one lowercase letter is present in the tag name.
+( * ) allows for the possibility of zero or more characters (other than <) between the opening and closing HTML tags.
+
+These quantifiers are essential for making the regex pattern flexible enough to handle various HTML tag structures.
+
+ADD MORE INFO!
+
 ### OR Operator
 
 ### Character Classes
