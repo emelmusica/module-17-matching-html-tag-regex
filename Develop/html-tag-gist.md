@@ -58,9 +58,7 @@ to be flexible enough to account for alphanumeric characters as well as special 
 ## Regex Components
 
 ### Anchors
-in Regex, anchors are used to specify where a match should accur in the input string. In our regex, 
-^ and $ are anchors. ^ asserts the start of the string, and $ asserts the end. This ensures that 
-the regex matches the entire string, not just a part of it.
+In Regex, anchors such as ^ and $ define the boundaries for a match within an input string. The caret ^ marks the start of the search, and the dollar $ denotes the end, ensuring that the regex pattern matches the entire string. In the context of the HTML tag regex /^<([ a-z ]+)([ ^< ]+)(?:>(.)</\1>|\s+/>)$, the opening < and closing > tags are anchored at the beginning and end of the pattern. This allows the system to locate < and > characters along with any content in between, whether it's alphanumeric or comprised of special characters.
 
 ### Quantifiers
 
