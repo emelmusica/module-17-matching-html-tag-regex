@@ -113,7 +113,19 @@ The * quantifier is greedy by default, meaning it matches as much as possible. T
 
 ### Boundaries
 
+Boundaries, like \b, ensure matches occur at word boundaries. These boundaries are defined at three positions:
+
+1. Before the first character in the string if it's a word character.
+
+2. After the last character in the string if it's a word character.
+
+3. Between two characters within the string, where one is a word character and the other isn't.
+
+But our regex doesn't utilize boundaries because HTML tags typically don't align with these word boundaries.
+
 ### Back-references
+
+In our regex, back-references, denoted as \1, help us ensure that the closing tag matches the opening tag. To do this, we capture text within a pair of parentheses using [ a-z ] [ a-z 0-9 ]*. \1 then checks that the text within these parentheses in the closing tag is identical to the opening tag. Additionally, the / character before \1 is a literal forward slash found in the closing HTML tag we aim to match.
 
 ### Look-ahead and Look-behind
 
