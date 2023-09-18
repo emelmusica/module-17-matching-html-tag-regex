@@ -90,8 +90,11 @@ Character classes define a set of characters that can match a single character.
 Regex flags are modifiers that alter regex behavior. Here are some common ones:
 
 i makes the match case-insensitive.
+
 g enables global matching, finding all matches in the input.
+
 m is for multiline matching, considering the start and end of each line.
+
 s performs a global search for whitespace characters.
 
 While our regex doesn't use flags, remember that you can combine them, like gi for case-insensitive global matching.
