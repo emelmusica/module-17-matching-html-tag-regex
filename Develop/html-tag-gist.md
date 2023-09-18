@@ -101,7 +101,11 @@ While our regex doesn't use flags, remember that you can combine them, like gi f
 
 ### Grouping and Capturing
 
+Parentheses () are used for grouping and capturing. In our Matching HTML regex, we use them to capture the tag name and the content within the tags.
+
 ### Bracket Expressions
+
+A bracket expression in regex, enclosed in square brackets, matches a single character or collating element. When it starts with a circumflex ( ^ ), it becomes a complemented expression. For instance, [ a-z ] defines a character set. In our case, [ ^< ]+ captures one or more characters that are not the < character, used to extract content within tags.
 
 ### Greedy and Lazy Match
 
