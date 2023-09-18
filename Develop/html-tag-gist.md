@@ -73,12 +73,12 @@ Quantifiers specify how many times a character or group should appear. In this r
 
 {7,9} - Curly braces with a range, like {7,9}, specify that the preceding element should occur between 7 and 9 times. In your example, it enforces a match with 7 to 9 characters.
 
-| - The pipe symbol | acts as an OR operator in regex, allowing you to define alternatives. For instance, abc|cba matches either "abc" or "cba" in the input string.
-
 These quantifiers are essential for making the regex pattern flexible enough to handle various HTML tag structures,
 they provide flexibility and precision when defining matching criteria in regular expressions.
 
 ### OR Operator
+
+The | symbol in regex acts like a Boolean OR operator. It enables you to define alternatives, causing the search to look for a match of either the preceding or following expression. For instance, in the regex pattern (?:>(.*)<\/\1>|\s+\/>), it uses the | operator to match either a closing tag or a self-closing tag.
 
 ### Character Classes
 
