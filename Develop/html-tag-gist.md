@@ -65,11 +65,18 @@ In Regex, anchors such as ^ and $ define the boundaries for a match within an in
 Quantifiers specify how many times a character or group should appear. In this regex, + is a quantifier. + means "one or more," so [ a-z ] + matches one or more lowercase letters.
 
 ( + ) ensures that at least one lowercase letter is present in the tag name.
-( * ) allows for the possibility of zero or more characters (other than <) between the opening and closing HTML tags.
+( * ) allows for the possibility of zero or more characters between the opening and closing HTML tags.
 
-These quantifiers are essential for making the regex pattern flexible enough to handle various HTML tag structures.
+? - The question mark ? makes the preceding element in the regex optional. It can match it 0 or 1 time, indicating that the element is not required but can occur once.
 
-ADD MORE INFO!
+*? - The *? combination makes the preceding quantifier (like *) match as few times as possible, unlike the default behavior where quantifiers tend to match as much as possible.
+
+{7,9} - Curly braces with a range, like {7,9}, specify that the preceding element should occur between 7 and 9 times. In your example, it enforces a match with 7 to 9 characters.
+
+| - The pipe symbol | acts as an OR operator in regex, allowing you to define alternatives. For instance, abc|cba matches either "abc" or "cba" in the input string.
+
+These quantifiers are essential for making the regex pattern flexible enough to handle various HTML tag structures,
+they provide flexibility and precision when defining matching criteria in regular expressions.
 
 ### OR Operator
 
