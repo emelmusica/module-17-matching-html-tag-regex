@@ -10,5 +10,6 @@ you can find my tutorial in the link provided below.
 
 https://gist.github.com/emelmusica/332389915afe06e38925cab5988b6ffe.js
 
-![Local Image](assets/regex screen shot.png)
 
+
+![Alt text](<assets/regex screen shot.png>)
