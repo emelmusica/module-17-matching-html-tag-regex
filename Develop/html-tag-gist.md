@@ -137,4 +137,4 @@ Returning the result: Match or no Match
 
 ## Author
 
-Martin Lopez wrote this tutorial and can be found at: [My repo's HTML Tag Gist](https://github.com/emelmusica/module-17-regex/blob/main/Develop/html-tag-gist.md)
+Martin Lopez wrote this tutorial and can be found at: [My repo's HTML Tag Gist](https://github.com/emelmusica/module-17-matching-html-tag-regex/blob/main/Develop/html-tag-gist.md)
