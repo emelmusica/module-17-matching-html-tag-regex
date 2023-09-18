@@ -137,4 +137,4 @@ Returning the result: Match or no Match
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Martin Lopez wrote this tutorial and can be foudn at https://github.com/emelmusica/module-17-regex/blob/main/Develop/html-tag-gist.md
